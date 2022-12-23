@@ -19,7 +19,7 @@ python3 main.py --file-path ./path/to/file.xlsx -S 20 -N 10 --verbose
 - -N : Number of solutions provided by the approach.
 - --verbose : Use if information of the running approach is desired.
 
-3. Inspect the solutions in the original ".xlsx" sile.
+3. Inspect the solutions in the original ".xlsx" file.
 
 ## License
 
