@@ -1,6 +1,6 @@
 # Automated name selection for the Network Scale-Up Method
 
-This code implements the approach described in the paper [Automated name selection for the Network Scale-Up Method](www.link-to-paper.here).
+This code implements the approach described in the paper [Automated name selection for the Network Scale-Up Method](https://doi.org/10.31235/osf.io/t6pk2).
 
 ## Usage
 
