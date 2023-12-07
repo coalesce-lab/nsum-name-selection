@@ -8,16 +8,16 @@ This code implements the approach described in the paper [Automated name selecti
 
 2. Run the command:
 
-``` 
+```bash
 python3 main.py --file-path ./path/to/file.xlsx -S 20 -N 10 --verbose
 ```
 
-- --file-path : Path to ".xlsx" file.
-- --low : Lower frequency threshold for the selection of candidate names (default is 0.001).
-- --high : Higher frequency threshold for the selection of candidate names (default is 0.002).
-- -S : Size of the subset of names.
-- -N : Number of solutions provided by the approach.
-- --verbose : Use if information of the running approach is desired.
+- `--file-path` : Path to ".xlsx" file.
+- `--low` : Lower frequency threshold for the selection of candidate names (default is 0.001).
+- `--high` : Higher frequency threshold for the selection of candidate names (default is 0.002).
+- `-S` : Size of the subset of names.
+- `-N` : Number of solutions provided by the approach.
+- `--verbose` : Use if information of the running approach is desired.
 
 3. Inspect the solutions in the original ".xlsx" file.
 
