@@ -12,7 +12,7 @@ This code implements the approach described in the paper [Automated name selecti
 python3 main.py --file-path ./path/to/file.xlsx -S 20 -N 10 --verbose
 ```
 
-- `--file-path` : Path to ".xlsx" file.
+- `--file-path` : Path to ".xlsx" file. The file should have a single spreadsheet and data flattened such that names are in rows and all the combinations of variables of interest correspond to columns. See the files in `data` folder as examples.
 - `--low` : Lower frequency threshold for the selection of candidate names (default is 0.001).
 - `--high` : Higher frequency threshold for the selection of candidate names (default is 0.002).
 - `-S` : Size of the subset of names.
