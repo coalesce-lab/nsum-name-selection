@@ -6,7 +6,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 
 setup(
-    name = 'mytool',
+    name = 'nsumselect',
     version = '1.0.0',
     author = 'Adria Fenoy',
     author_email = 'fenoy.adria@gmail.com',
@@ -19,12 +19,16 @@ setup(
     packages = find_packages(),
     install_requires = [requirements],
     python_requires='>=3.7',
+    package_data={
+        'sample': ['data']
+        },
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
     ],
-    entry_points = '''
-        [console_scripts]
-        nsumselect=main
-    '''
+    entry_points = {
+        'console_scripts': [
+            'nsumselect=main'
+            ]
+        }
 )
