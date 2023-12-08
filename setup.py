@@ -28,7 +28,7 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
-            'nsumselect = main'
+            'nsumselect=main:main'
             ]
         }
 )
