@@ -23,4 +23,4 @@ python3 main.py --file-path ./path/to/file.xlsx -S 20 -N 10 --verbose
 
 ## License
 
-The code is released under GNU GPLv2 license. See license.txt for further details.
+The code is released under GNU GPLv2 license. See `LICENSE` for further details.
