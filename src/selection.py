@@ -36,7 +36,7 @@ def selection(filepath, low, high, subset_size, num_solutions, verbose=True):
 
         objective = cp.Minimize(cp.sum_squares(A @ x - b))
         prob = cp.Problem(objective, [cp.sum(x) == subset_size])
-        prob.solve()
+        prob.solve(solver = cp.SCIP)
 
         solution = candidates[x.value != 0]
         f_solution = solution.sum(axis=0, numeric_only=True)
