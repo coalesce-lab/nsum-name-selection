@@ -4,15 +4,14 @@ This code implements the approach described in the paper [Automated name selecti
 
 ## Usage
 
-1. Sort the name statistics in a ".xlsx" file as done in the exampes inside the data folder.
-
-2. Run the command:
+1. Arrange the data in a Excel `xlsx` file in a single spreadsheet in a flattened form such that names are in rows and all the combinations of variables of interest correspond to columns. See the files in `data` folder for examples.
+2. Run the command such as (values of `-S` and `-N` options are examples, `--verbose` is optional):
 
 ```bash
 python3 main.py --file-path ./path/to/file.xlsx -S 20 -N 10 --verbose
 ```
 
-- `--file-path` : Path to ".xlsx" file. The file should have a single spreadsheet and data flattened such that names are in rows and all the combinations of variables of interest correspond to columns. See the files in `data` folder as examples.
+- `--file-path` : Path to ".xlsx" file. 
 - `--low` : Lower frequency threshold for the selection of candidate names (default is 0.001).
 - `--high` : Higher frequency threshold for the selection of candidate names (default is 0.002).
 - `-S` : Size of the subset of names.
