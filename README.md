@@ -3,6 +3,21 @@
 This code implements the approach described in the paper [Automated name selection for the Network Scale-Up Method](https://doi.org/10.31235/osf.io/t6pk2).
 
 
+
+
+## Installation
+
+For example using `venv`, in a folder in which unpacked the tool:
+
+```
+python -m venv .env
+source .env/bin/activate
+pip install -e .
+```
+
+Then use according to Usage section below.
+
+
 ## Usage
 
 1. Arrange the data in a Excel `xlsx` file in a single spreadsheet in a flattened form such that names are in rows and all the combinations of variables of interest correspond to columns. See the files in `data` folder for examples.
